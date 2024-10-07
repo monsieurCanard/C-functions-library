@@ -8,7 +8,7 @@ This is my own C functions library that may help you as it helped me along my C 
 
 * Conversion (atoi, itoa)
 * Display (putstr, putnbr ...)
-* Dynamic and Static stack using functions (add, pop, peek ...)
+* Dynamic and Static stacking using functions (add, pop, peek ...)
 * Identifier (isprint, isalnum ...)
 * Linked list using functions (add back, add front ..)
 * Memory (memset, calloc, bzero ...)
@@ -20,5 +20,5 @@ This is my own C functions library that may help you as it helped me along my C 
 ```
 git clone https://github.com/monsieurCanard/C-functions-library.git
 ```
-(libft.a already include in the repo but you can recompile it by using make command)
+(libft.a is already included in the repo, but you can recompile it by using the make command)
 
