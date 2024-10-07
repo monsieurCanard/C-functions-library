@@ -11,12 +11,10 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dest, const char *src, size_t size)
+size_t ft_strlcpy(char *dest, const char *src, size_t size)
 {
-	size_t	i;
-	size_t	long_src;
+	size_t long_src;
 
-	i = 0;
 	long_src = ft_strlen((char *)src);
 	if (long_src + 1 < size)
 		dest = ft_memcpy(dest, src, long_src + 1);

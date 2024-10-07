@@ -11,9 +11,9 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-static int	ft_verif_set(char const c, char const *set)
+static int ft_verif_set(char const c, char const *set)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (set[i])
@@ -27,14 +27,12 @@ static int	ft_verif_set(char const c, char const *set)
 	return (0);
 }
 
-char	*ft_strtrim(char const *s1, char const *set)
+char *ft_strtrim(char const *s1, char const *set)
 {
-	char	*str;
-	size_t	start;
-	size_t	end;
-	size_t	j;
+	char *str;
+	size_t start;
+	size_t end;
 
-	j = 0;
 	end = 0;
 	start = 0;
 	if (!s1)
