@@ -20,5 +20,5 @@ This is my own C functions library that may help you as it helped me along my C 
 ```
 git clone https://github.com/monsieurCanard/C-functions-library.git
 ```
-libft.a already include in the repo but you can recompile it by using make command.
+(libft.a already include in the repo but you can recompile it by using make command)
 
