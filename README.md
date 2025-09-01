@@ -1,20 +1,20 @@
 ![C_library](https://github.com/user-attachments/assets/bf88f7e4-56a8-4e36-9677-9e78ce035bb4)
 # C-Functions-Library
 
-Petite bibliothèque C personnelle regroupant des fonctions d’usage courant pour apprendre et réutiliser dans d'autres projets.
+A personal C utility library offering a range of commonly used functions to streamline coding in academic and practical contexts.
 
-## Modules inclus
+## Modules Included
 
-- **Conversion** : `atoi`, `itoa` (chaîne ↔ entier)  
-- **Affichage** : `putstr`, `putnbr`, etc.  
-- **Piles** : implémentation statique et dynamique (`add`, `pop`, `peek`)  
-- **Identification** : `isprint`, `isalnum`, etc.  
-- **Listes chaînées** : fonctions `add_back`, `add_front`, etc.  
-- **Mémoire** : `memset`, `calloc`, `bzero`  
-- **Chaine de caractères** : `strjoin`, `strdup`, `substr`  
-- **Vecteurs 2D/3D** : `normalize`, `magnitude`, etc.
+- **Conversion** – `atoi`, `itoa` (string ↔ integer)  
+- **Display** – `putstr`, `putnbr`, and more  
+- **Stacks** – Static and dynamic implementations (`add`, `pop`, `peek`)  
+- **Character Checks** – `isprint`, `isalnum`, etc.  
+- **Linked Lists** – `add_back`, `add_front`, etc.  
+- **Memory Utilities** – `memset`, `calloc`, `bzero`  
+- **Strings** – `strjoin`, `strdup`, `substr`  
+- **Vector Math (2D & 3D)** – `normalize`, `magnitude`, etc.
 
-## Utilisation
+## Usage
 
 ```bash
 git clone https://github.com/monsieurCanard/C-functions-library.git
