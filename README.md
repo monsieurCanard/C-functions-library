@@ -1,24 +1,22 @@
 ![C_library](https://github.com/user-attachments/assets/bf88f7e4-56a8-4e36-9677-9e78ce035bb4)
+# C-Functions-Library
 
-## Description
+Petite bibliothèque C personnelle regroupant des fonctions d’usage courant pour apprendre et réutiliser dans d'autres projets.
 
-This is my own C functions library that may help you as it helped me along my C cursus.
+## Modules inclus
 
-## Contents
+- **Conversion** : `atoi`, `itoa` (chaîne ↔ entier)  
+- **Affichage** : `putstr`, `putnbr`, etc.  
+- **Piles** : implémentation statique et dynamique (`add`, `pop`, `peek`)  
+- **Identification** : `isprint`, `isalnum`, etc.  
+- **Listes chaînées** : fonctions `add_back`, `add_front`, etc.  
+- **Mémoire** : `memset`, `calloc`, `bzero`  
+- **Chaine de caractères** : `strjoin`, `strdup`, `substr`  
+- **Vecteurs 2D/3D** : `normalize`, `magnitude`, etc.
 
-* Conversion (atoi, itoa)
-* Display (putstr, putnbr ...)
-* Dynamic and Static stacking using functions (add, pop, peek ...)
-* Identifier (isprint, isalnum ...)
-* Linked list using functions (add back, add front ..)
-* Memory (memset, calloc, bzero ...)
-* String (strjoin, strdup, substr ...)
-* Vector2 and 3 math functions (normalize, magnitude ...)
+## Utilisation
 
-## Usage
-
-```
+```bash
 git clone https://github.com/monsieurCanard/C-functions-library.git
-```
-(libft.a is already included in the repo, but you can recompile it by using the make command)
-
+cd C-functions-library
+make
